@@ -1,0 +1,14 @@
+cara menjalankan nya
+buka terminal dari laragon dan cmd
+
+Langkah 1: Jalankan Backend (Laravel API)
+Buka Terminal pertama, lalu masuk ke folder backend:
+cd SERVER_MODULE/backend
+php artisan serve
+
+Langkah 2: Jalankan Frontend (React Production / Development)
+Anda memiliki dua opsi untuk menjalankan sisi frontend:
+Opsi A (Menggunakan hasil build production yang sudah dibuat):
+Buka Terminal kedua, lalu masuk ke folder frontend:
+cd SERVER_MODULE/frontend
+npx serve -s build
